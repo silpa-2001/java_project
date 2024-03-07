@@ -1,0 +1,36 @@
+body {
+    background-image: url('pic.png');
+    background-size: cover; 
+    text-align: center; color: #ff9d00;
+    font-size: 30px;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px; 
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2; 
+        color: #333; 
+    }
+
+    td {
+        background-color: #fff; 
+        color: #555; 
+    }
+    
+    .form button{
+        margin-left: 300px;
+        border-radius: 20px;
+        min-width: 100px;
+    }
+    .form button:hover{
+        font-size: 100px;
+    }
+}
